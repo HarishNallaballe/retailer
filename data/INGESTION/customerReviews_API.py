@@ -5,6 +5,7 @@ import pandas as pd
 from datetime import datetime
 from google.cloud import storage
 
+
 spark = SparkSession.builder.appName("CustomerReviewsAPI").getOrCreate()
 
 API_URL = "https://699d427c83e60a406a45a4dc.mockapi.io/retailer/reviews"
